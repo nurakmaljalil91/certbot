@@ -1,0 +1,1 @@
+0 0 * * * certbot renew --webroot -w /usr/share/nginx/html --quiet --deploy-hook "nginx -s reload"
